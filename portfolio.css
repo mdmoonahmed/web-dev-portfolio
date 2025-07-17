@@ -114,7 +114,7 @@ nav ul li a {
         margin: 130px auto;
         padding: 130px 150px;
         border-radius: 10px;
-        background-color:
+        background-color: 
     }
     .about-items {
         display: flex;
@@ -146,4 +146,43 @@ nav ul li a {
     }
     .skill-title {
         font-weight: 700;
+    }
+    @media screen and (max-width:576px) {
+        .skills-container {
+            flex-direction: column;
+
+        }
+        main {
+            max-width: 100%;
+        }
+        .about {
+            padding: 20px 2px;
+        }
+        .section-description{
+            padding: 0 10px;
+        }
+        .about-items{
+            flex-direction: column;
+            align-items: center;
+        }
+        nav ul{
+            flex-direction: column;
+            margin-right: 0px;
+        }
+        .banner-content ,.nav-title{
+            margin-left: 20px;
+        }
+        .btn-primary{
+            margin-bottom: 20px;
+        }
+        nav {
+            flex-direction: column;
+        }
+        .banner{
+            flex-direction: column;
+        
+        }
+        .header{
+            background-image: none
+        }
     }
